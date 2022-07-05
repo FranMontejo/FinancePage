@@ -1,0 +1,6 @@
+Registro de finanzas:
+
+- Registrar nuevo gasto
+- Registrar ingreso
+- Cargar gastos previos.
+- Informe ingresos - gastos - ahorros

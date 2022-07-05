@@ -1,0 +1,41 @@
+:root{
+    --blue_dark_color: #1f2833;
+    --blue_light_color: #66FCF1;
+}
+
+
+
+body{
+    background: linear-gradient(to bottom, var(--blue_dark_color),var(--blue_light_color));
+    padding-bottom: 110px;
+}
+#gastoIMG {
+    display: block;
+    margin-left: 41%;
+    margin-right: 50%;
+    padding-bottom: 20px;
+    margin-top: 5%;
+    height: 250px;
+}
+
+.mb-3 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.mb-3 .form-select{
+    margin-top: 20px;
+
+}
+.mb-3 #spentButton{
+    margin-top: 25px;
+    text-align: center;
+}
+
+
+.form-control:focus , .form-select:focus{
+    box-shadow: 0 0 0.75rem var(--blue_dark_color);
+}

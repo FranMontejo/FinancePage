@@ -1,0 +1,54 @@
+:root{
+    --blue_dark_color: #1f2833;
+    --blue_light_color: #66FCF1;
+}
+
+
+body{
+    background: linear-gradient(to bottom, var(--blue_dark_color),var(--blue_light_color));
+    padding: 85px;
+}
+.tittle{
+    text-align: center;
+    padding-top: 30px;
+    color: var(--blue_dark_color);
+}
+
+.img {
+    display: block;
+    width: 100%;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.gastoIMG {
+    height: 200px;
+    width: 350px;
+}
+
+
+.buttonsMenu{
+    color:var(--blue_dark_color);
+    text-align:center;
+    margin:25px;
+    
+}
+
+
+.btn btn-dark{
+    color:var(--blue_dark_color);
+
+}
+
+
+.labels{
+    text-align:center;
+    padding-bottom:100px;
+    margin-top: 10%;
+    
+}
+
+.form-label {
+    color:black;
+    margin-bottom:2%;
+}

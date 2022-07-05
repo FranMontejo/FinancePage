@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar nuevo gasto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="myStyle.css" rel="stylesheet" >
+
+</head>
+<body>
+    <div class="imgDollar">
+        <img src="gastoIMG.png" id="gastoIMG">
+    </div>
+    
+    <div class="mb-3">
+        
+        <form method="POST" action="guardarGasto.php">
+            
+            <h3 class="form-label" aria-label=".form-control-lg example"> Ingrese monto: </h3>
+            <input type="text" class="form-control .form-control-lg" name="moneyInput" placeholder="$$$">
+        
+            <select class="form-select" name="optionReason" aria-label="Default select example">
+                <option selected>Comida</option>
+                <option value="1">Transporte</option>
+                <option value="2">Facultad</option>
+                <option value="3">Otros..</option>
+              </select>
+        
+           
+            <input type="submit" id="spentButton" class="btn btn-dark" onclick="location.href='index.html'" value="Guardar nuevo gasto"></button>
+        </form>
+        
+        
+    </div>
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
